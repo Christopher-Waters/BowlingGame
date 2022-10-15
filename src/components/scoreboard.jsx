@@ -38,7 +38,7 @@ import { Frame } from './Frame';
         <div>
           <Controls handleRoll={this.roll} handleReset={this.reset} pinsUp={this.pinsUp()} />
   
-          <div className="player-name">Chris</div>
+          <div className="player-name">Player 1</div>
   
           <div className="score-board">
             {[...Array(10)].map((o, i) => (
